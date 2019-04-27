@@ -183,7 +183,8 @@ class Map_window(QMainWindow, Ui_MainWindow):
             self.pushButton_3.setFocusPolicy(QtCore.Qt.NoFocus)
             self.pushButton_4.setFocusPolicy(QtCore.Qt.NoFocus)
             self.pushButton_5.setFocusPolicy(QtCore.Qt.NoFocus)
-
+            self.checkBox.setFocusPolicy(QtCore.Qt.NoFocus)
+            self.textBrowser.setFocusPolicy(QtCore.Qt.NoFocus)
             self.lineEdit.setFocusPolicy(QtCore.Qt.ClickFocus)
             self.pushButton_4.clicked.connect(self.find_func)
             self.pushButton.clicked.connect(self.layer_map)
